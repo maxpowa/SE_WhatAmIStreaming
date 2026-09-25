@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "SE_WhatAmIStreaming Dev Client": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Max\\AppData\\Local\\CringeLauncher\\current\\CringeBootstrap.exe",
+      "commandLineArgs": "\"C:\\Steam\\steamapps\\common\\SpaceEngineers\\Bin64\\SpaceEngineers.exe\"",
+      "environmentVariables": {
+        "DOTNET_BOOTSTRAP_ENTRYPOINT": "CringeLauncher.UserDev.UserDevLauncher, CringeLauncher",
+        "DOTNET_USERDEV_RUNDIR": "data",
+        "DOTNET_USERDEV_PLUGINDIR": "."
+      }
+    }
+  }
+}
