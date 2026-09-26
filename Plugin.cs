@@ -4,7 +4,7 @@ using VRage.Plugins;
 
 namespace SE_WhatAmIStreaming;
 
-public class Plugin : IPlugin
+public class Plugin : IPlugin, IDisposable
 {
     private static Harmony _harmony;
     private const string Name = "What Am I Streaming?";

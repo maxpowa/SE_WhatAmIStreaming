@@ -15,7 +15,7 @@
         <PackageId>Plugin.SE_WhatAmIStreaming</PackageId>
         <AssemblyName>Plugin.SE_WhatAmIStreaming</AssemblyName>
         <Title>What Am I Streaming?</Title>
-        <Description>Shows the count/type of entities which are currently streaming in, instead of a vauge "Streaming" text.</Description>
+        <Description>Replaces the vague "Streaming..." loading wheel with a live count of exactly what's loading in — voxels, small grids, static grids, and large grids.</Description>
         <LangVersion>preview</LangVersion>
         <PackageIcon>icon.png</PackageIcon>
     </PropertyGroup>
